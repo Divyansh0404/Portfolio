@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f7f7f7;
+        }
+        
+        header {
+            background-color: rgb(111, 111, 123);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .projects, .contact, .about {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(147, 119, 119, 0.1);
+            max-width: 800px;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .project, .contactForm {
+            margin-bottom: 20px;
+        }
+        
+        .contactForm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .contactForm input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        .contactForm input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        
+        .contactForm input[type="submit"]:hover {
+            background-color: #555;
+        }
+        
+        .about img {
+            align-self: center;
+            animation: fadeIn 1s ease;
+        }
+        
+        .about p {
+            text-align: center;
+            animation: fadeIn 1s ease;
+        }
+        
+        .about h3, .contact h2, .projects h2 {
+            text-align: center;
+        }
+        
+        .skills, .achievements {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        
+        .skills li, .achievements li {
+            margin: 5px 0;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        nav ul {
+            list-style: none;
+            text-align: center;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #8eb0d1;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <nav style="background-color: rgb(111, 111, 123)">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#hackkerrank">Hackkerrank</a></li>
+            <li><a href="#certificates">Hackathon&Certificates</a></li>
+            <li><a href="#cgpa">CGPA</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    </section>
+
+    <section class="about" style="background-color: rgb(228, 221, 221);;">
+        <h2>About Me</h2>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./images/profile_photo.png" alt="Your Name" width="700px" height="700px">
+        <p>I am Divyansh Rustagi, studying Computer Science and Engineering (B.Tech) at SRM Institute of Science and Technology, Kattankulathur, Chennai. I am a second-year B.Tech student.</p>
+        
+        
+        <p>Contact Details:<br>
+            Phone number: 9821757044<br>
+            Email: dr9743@srmist.edu.in
+        </p>
+
+        <a href="https://github.com/Divyansh0404"><img src="https://cdn.icon-icons.com/icons2/1476/PNG/512/github_101792.png" alt="Github" width="45px" height="45px"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/in/divyansh-rustagi-2906a829b/"><img src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png" alt="" width="35px" height="35px"></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/divyansh_rustagi_/"><img src="https://th.bing.com/th/id/OIP.-ZirgQE5pr8e7htQWowJIgHaHa?pid=ImgDet&rs=1" alt="instagram" width="40px" height="40px"></a>
+    
+
+    </section>
+
+    <br>
+    <section>
+    <div style="background-color: rgb(228, 221, 221);width:800px;height:300px">
+        <!-- <fieldset style="background-color: rgb(228, 221, 221);"> -->
+        <h2 style="text-align: center;">Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>C</li>
+            <li>python</li>
+        </ul>
+    </fieldset>
+    </div>
+    </section>
+
+    <br>
+
+    <section style="background-color: rgb(228, 221, 221);;">
+        <fieldset style="background-color: rgb(224, 202, 202)128, 128, 128);">
+        <div>
+        <h1 style="text-align: center;">Hackerrank</h1>
+        <img src="./images/hackerrank.png" alt="hackerrank" width="800px" height="400px">
+    </div>
+</fieldset>
+    </section>
+
+    <br>
+
+    <section class="certificates" id="certificates" style="background-color: rgb(228, 221, 221);;">
+        <div class="max-width">
+            <h2 class="title" style="text-align: center;">Hackathon & Certificates</h2>
+
+            <table>
+                <tr>
+                    <td><img src="./images/c1.png" alt="certificate_1" width="500px" height="350px"></td>
+                    <td><img src="./images/c2.png" alt="certificate_2" width="500px" height="350px"></td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td><img src="./images/c3.png" alt="certificate_3" width="500px" height="350px"></td>
+                    <td><img src="./images/c4.png" alt="certificate_4" width="500px" height="350px"></td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+<br><br>
+    <section style="background-color: rgb(228, 221, 221);;">
+        <fieldset style="background-color: rgb(228, 221, 221);;">
+        <div>
+            <h1>CGPA</h1>
+            <table border="1px" style="background-color:rgb(228, 221, 221);width: 450px;height:100px">
+                <tr>
+                    <td><h3>Semester-1</h3></td>
+                    <td><h3>Semester-2</h3></td>
+                </tr>
+                <tr>
+                    <td><h5>9.38</h5></td>
+                    <td><h5>8.58</h5></td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+    </section>
+    <br><br>
+
+    <section class="projects" id="projects" style="background-color: rgb(228, 221, 221);;">
+        <div class="max-width">
+            <h2 class="title" style="text-align: center;">My Projects</h2>
+
+            <div class="project">
+                <fieldset>
+                    <legend><h1>Project 1</h1></legend>
+                <table>
+                    <tr>
+                        <td><img src="./images/medical_management_system.png" alt="Project 1" width="400px" height="300px"><br><h3 style="text-align: center;">Medical Management Syatem
+                        </h3></td>
+                        <td><p style="text-align: justify;">In the age of visual content dominance, the intersection of computer vision and natural 
+                            language processing has paved the way for innovative applications, one of which is Automatic 
+                            Image Captioning. This project delves into the realm of image caption generation using deep 
+                            learning techniques. We employed a combination of Convolutional Neural Networks (CNNs) 
+                            for image feature extraction and Long Short-Term Memory networks (LSTMs) for generating 
+                            textual descriptions. Our approach involved utilizing the VGG16 model pre-trained on 
+                            ImageNet for image feature extraction, and a custom-designed LSTM-based neural network 
+                            for sequence generation.
+                            This project not only demonstrates the fusion of computer vision and natural language 
+                            processing but also serves as an educational tool, emphasizing the significance of deep learning 
+                            in real-world applications.</p></td>
+                        </tr>
+                </table>
+                </fieldset>
+
+            </div>
+            <br>
+            <div class="project">
+                <fieldset>
+                    <legend><h1>Project 2</h1></legend>
+                <table>
+                    <tr>
+                        <td><img src="./images/online_compiler.png" alt="Project 2" width="300px" height="400px"><br><h3 style="text-align: center;">Online Compiler</h3></td>
+                        <td><p style="text-align: justify;">In today's fast-evolving world of software development, the need for efficient, accessible, and user-friendly coding tools has become paramount. Online compilers have emerged as indispensable platforms for programmers, providing a versatile and collaborative environment for writing, testing, and sharing code. This project presents the development and implementation of a sophisticated online compiler system, designed to address the pressing demands of modern software developers and learners.
+                        </p>
+                    </tr>
+                </table>
+                </fieldset>
+
+            </div>
+            <br>
+            
+            <div class="project">
+                <fieldset>
+                    <legend><h1>Project 3</h1></legend>
+                <table>
+                    <tr>
+                        <td><img src="./images/phone_directory.png" alt="Project 4" width="300px" height="300px"><br><h3 style="text-align: center;">Phone Directory Management System</h3></td>
+                        <td><p style="text-align: justify;">A Phone Directory Management System is a
+                            software application designed to efficiently
+                            manage and organize a database of contact
+                            information, including names, phone
+                            numbers, addresses, and additional details
+                            of individuals or organizations. This system
+                            aims to streamline the process of storing,
+                            searching for, and updating contact
+                            information in a user-friendly and secure
+                            manner.</p></td>
+                    </tr>
+                </table>
+                </fieldset>
+
+            </div>
+            <br>
+            <div class="project">
+                <fieldset>
+                    <legend><h1>Project 4</h1></legend>
+                <table>
+                    <tr>
+                        <td><img src="./images/library_management_system.png" alt="Project 5" width="400px" height="300px"><br><h3 style="text-align: center;">Library Management System</h3></td>
+                        <td><p style="text-align: justify;">This project aims to enhance traditional library management systems by integrating modern technologies to streamline operations and improve user experience. The proposed system employs a user-friendly interface for patrons, incorporating features such as advanced search functionalities, real-time availability tracking, and personalized recommendation algorithms. Additionally, the backend system employs robust database management, ensuring efficient cataloging, inventory control, and automated notifications. The implementation of this innovative library management system promises to revolutionize the way libraries operate, fostering a more accessible and dynamic environment for both librarians and patrons.</p></td>
+                    </tr>
+                </table>
+                </fieldset>
+
+            </div>
+    </section>
+    <br><br>
+
+    <section class="contact" style="background-color: rgb(228, 221, 221);">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch with me, feel free to fill out the form below:</p>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Aashiv Gupta"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
